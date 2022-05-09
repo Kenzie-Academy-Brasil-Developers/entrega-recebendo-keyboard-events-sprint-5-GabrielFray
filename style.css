@@ -1,0 +1,10 @@
+body{
+    background-color: #385379;
+}
+#box {
+  width: 380px;
+  height: 380px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
