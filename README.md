@@ -11,18 +11,15 @@ Após feito o clone do respectivo repositório, copie o [código de exemplo na d
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-<script>
-
-document.addEventListener('keydown', (event) => {
-  const keyName = event.key;
-  alert('keydown event\n\n' + 'key: ' + keyName);
-});
-
-</script>
-</head>
-<body>
-</body>
+  <head>
+    <script>
+      document.addEventListener("keydown", (event) => {
+        const keyName = event.key;
+        alert("keydown event\n\n" + "key: " + keyName);
+      });
+    </script>
+  </head>
+  <body></body>
 </html>
 ```
 
@@ -30,19 +27,19 @@ Tente fazer isso. Você pode desejar modificar o exemplo para mudar o alert() pa
 
 Pressione as teclas de cursor (setas) no teclado. Quais os nomes de tecla aparecem?
 
-Você também pode verificar a [documentação de Valores de Teclas](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values#Navigation_keys) (em inglês) para encontrar os nomes associados às diversas teclas.
+Você também pode verificar a [documentação de Valores de Teclas](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values#Navigation_keys) (em inglês) para encontrar os nomes associados às diversas teclas
 
 Adicione um div com id="box" dentro do elemento body da página, e aplique a seguinte regra CSS:
 
 ```css
-#box { 
-        width: 100px; 
-        height: 100px;
-        position: absolute; 
-        background: gray; 
-        left: 200px; 
-        top: 200px; 
-    }
+#box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: gray;
+  left: 200px;
+  top: 200px;
+}
 ```
 
 Inicialize duas variáveis globais **fora** do keydown listener:
@@ -67,4 +64,3 @@ Por fim, substitua a tediosa caixa cinza por uma imagem.
 ## Envio
 
 Faça o push do código para o seu repositório GitHub e implemente-o GitHub pages. No Canvas, por favor, envie sua url do GitHub Pages: (ex: https://nomedeusuario.github.io/keyboard-events) e envie o link do seu repositório nos comentários. Após ser a correção, seu projeto deverá ficar privado.
-

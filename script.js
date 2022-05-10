@@ -1,4 +1,5 @@
 let boxTop = 200;
+
 let boxLeft = 200;
 
 document.addEventListener("keydown", (event) => {
